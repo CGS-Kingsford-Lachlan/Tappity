@@ -3,7 +3,7 @@
 //  Tappity
 //
 //  Created by Lachlan Kingsford on 29/5/17.
-//  Copyright © 2017 Lachlan Kingsford. All rights reserved.
+//  Copyright © 2017 Lachlan Kingsford (not really). All rights reserved.
 //
 
 import UIKit
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     }
     
     
-    
+    // THIS IS MINE NOW wb
     
     
     
@@ -64,7 +64,7 @@ class ViewController: UIViewController {
     }
     
     func alert(){
-        
+        print("Game Over")
     let alert = UIAlertController(title: "Game Over", message: "Your score is: \(points)", preferredStyle: UIAlertControllerStyle.actionSheet)
     alert.addAction(UIAlertAction(title: "Reset", style: UIAlertActionStyle.default, handler: nil))
     self.present(alert, animated: true, completion: nil)
